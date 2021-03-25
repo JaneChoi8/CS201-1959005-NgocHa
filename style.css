@@ -1,0 +1,83 @@
+nav, h2, h5, h6{
+  font-family: 'Kiwi Maru', serif;
+}
+p,h2,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+#demo .carousel-inner img {
+    width: 100%;
+    height: 100vh;
+}
+a{
+  text-decoration-color: black;
+}
+.card-img {
+    width: 75%;
+    height: 20rem;
+}
+
+a.col-md-6 {
+    cursor: pointer;
+    color: black;
+}
+.jumbotron{
+  background-color: lightgreen !important;
+}
+p .pre{
+  font-weight: lighter;
+}
+.card-img {
+    border-radius: 0 !important;
+    margin-top: 10px;
+}
+.card-img-top {
+    border-radius: 0 !important;
+}
+.card{
+  border: none !important;
+  border-radius: none !important;
+}
+.row a {
+    color: black;
+}
+.row a:hover {
+    color: green;
+}
+.row.pro {
+    background: #bdffbd52;
+}
+h6.fo {
+    background: lightgray;
+    padding: 15px;
+}
+.row.mt-2.mb-3.ml-2.mr-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 15px;
+}
+.n1.text-center {
+    background: #d3faff;
+    margin: 10px;
+    margin-top: -60px;
+    border-radius: 50px;
+}
+img.card-img-top {
+    height: 33vh;
+}
+.col-md-8.p-0 img {
+    height: 70vh;
+}
+p a.icon{
+  font-size: 50px
+}
+
+@media screen and (max-width: 750px) {
+.row.mt-2.mb-3.ml-2.mr-2{
+    display: block;
+
+}
+.n1.text-center{
+  margin-top: 15px;
+  border-radius: 25px;
+}
+}
